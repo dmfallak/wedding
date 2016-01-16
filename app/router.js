@@ -6,6 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('directions');
+  this.route('guestbook');
 });
 
 export default Router;
