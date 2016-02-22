@@ -2,3 +2,16 @@
 body {
   background-image: url("Main_Street_Bridge_Cambridge_Ontario_2014.jpg")
 }
+
+h2 {
+  font-size: 48px;
+}
+
+h2, h3 {
+  font-family: 'Lobster';
+}
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('../fonts/lobster/lobster1_4.otf')
+}
