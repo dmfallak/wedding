@@ -12,7 +12,9 @@ test('it renders', function(assert) {
 
   this.render(hbs`{{nav-bar}}`);
 
-  assert.equal(this.$().text().trim(), '');
+  assert.equal(this.$().text().trim(), "Home\n"+
+"    Directions\n" +
+"    Guestbook");
 
   // Template block usage:" + EOL +
   this.render(hbs`
@@ -21,5 +23,5 @@ test('it renders', function(assert) {
     {{/nav-bar}}
   `);
 
-  assert.equal(this.$().text().trim(), 'template block text');
+  assert.equal(this.$().text().indexOf('template block text') > -1, true);
 });
