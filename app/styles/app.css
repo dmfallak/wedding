@@ -8,7 +8,7 @@ h2, h3 {
 }
 
 html {
-  background: url(../assets/Photographic_Edit-138-web.jpg) no-repeat center center fixed;
+  background: url(../assets/cover.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -48,7 +48,7 @@ html {
   position: absolute;
   right: 0px;
   left: 0px;
-  top: 80px;
+  top: 100px;
   color: rgb(174,218,154);
   font-family: 'Lobster';
   font-size: 200%;
