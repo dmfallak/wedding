@@ -23,7 +23,8 @@ html {
 .nav-bar {
   text-align: center;
   position: absolute;
-  width: 100%;
+  right: 0px;
+  left: 0px;
 }
 
 .nav-bar a {
