@@ -26,7 +26,7 @@ html {
   width: 100%
 }
 
-#cover-text-div {
+.landscape #cover-text-div {
   text-align: center;
   position: absolute;
   right: 100px;
@@ -34,5 +34,16 @@ html {
   width: 500;
   color: rgb(174,218,154);
   font-family: 'Lobster';
-  font-size: 48pt;
+  font-size: 300%;
+}
+
+.portrait #cover-text-div {
+  text-align: center;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 80px;
+  color: rgb(174,218,154);
+  font-family: 'Lobster';
+  font-size: 200%;
 }
